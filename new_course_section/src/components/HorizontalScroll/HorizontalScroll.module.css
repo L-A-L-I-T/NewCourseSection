@@ -12,6 +12,9 @@
 
 .children {
   display : flex;
-  overflow : hidden;
+  overflow : scroll;
   margin : 10px 50px;
+}
+.children::-webkit-scrollbar {
+  display: none;
 }
