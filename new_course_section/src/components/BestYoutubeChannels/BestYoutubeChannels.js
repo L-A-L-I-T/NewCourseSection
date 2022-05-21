@@ -18,8 +18,8 @@ function BestYoutubeChannels() {
 				Youtube Channels
 			</h4>
 			<HorizontalScroll>
-				{YoutubeData.map((data) => {
-					return <YoutubeChannelCard data={data} />;
+				{YoutubeData.map((data, index) => {
+					return <YoutubeChannelCard data={data} key={index} />;
 				})}
 			</HorizontalScroll>
 		</div>

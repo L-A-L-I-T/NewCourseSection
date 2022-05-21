@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import styles from "./section.module.css";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 
@@ -14,6 +14,10 @@ function Section() {
 	};
 	return (
 		<div>
+			<div className={styles.courseName}>
+				<h2 className={styles.courseTitle}>Coding</h2>
+			</div>
+
 			<Tabs
 				value={tabValue}
 				onChange={handleChange}

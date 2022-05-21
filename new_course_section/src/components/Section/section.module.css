@@ -1,0 +1,9 @@
+.courseName {
+  display : flex;
+  justify-content: center;
+}
+
+.courseTitle {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
