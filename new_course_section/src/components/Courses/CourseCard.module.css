@@ -1,0 +1,27 @@
+.rowCourse {
+  min-height: 290px;
+  min-width: 190px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 2px #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  padding : 5px 1px;
+  margin-bottom: 5px;
+  font-family: 'Rubik', sans-serif;
+}
+.rowCourse:hover{
+  box-shadow: 0 0 15px rgba(33,33,33,.2);
+}
+.poster {
+  border-radius: 10px 10px 0px 0px;
+  object-fit: contain;
+  height : 100px;
+}
+.videoCount {
+  font-size: 12px;
+  color: #696969;
+}

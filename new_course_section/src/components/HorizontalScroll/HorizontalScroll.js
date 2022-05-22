@@ -17,7 +17,6 @@ const sideScroll = (element, step, distance, speed) => {
 
 function HorizontalScroll({ children }) {
 	const contentWrapper = React.useRef(null);
-	console.log(contentWrapper);
 	return (
 		<div className={styles.container}>
 			<div className={styles.buttonWrapper}>

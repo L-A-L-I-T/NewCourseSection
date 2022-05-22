@@ -1,0 +1,9 @@
+.container {
+  font-family: 'Rubik', sans-serif;
+}
+
+.title {
+  display : flex;
+  align-items: center;
+  margin-left : 10px;
+}

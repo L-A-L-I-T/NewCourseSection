@@ -1,11 +1,9 @@
-import Header from "./components/Header/Header";
-import Section from "./components/Section/Section";
+import AppRoutes from "./routes";
 
 function App() {
 	return (
 		<div>
-			<Header />
-			<Section />
+			<AppRoutes />
 		</div>
 	);
 }
