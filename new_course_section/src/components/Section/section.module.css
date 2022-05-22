@@ -2,9 +2,16 @@
   display : flex;
   justify-content: center;
   align-items: center;
-  
-  font-family: 'Caveat', cursive;
-  min-height : 200px;
-  font-size : 2.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size : 1.2rem;
   margin-bottom : 20px;
+  position : relative;
+  background-color : #5a556f;
+}
+.title {
+  position : absolute;
+}
+
+.banner {
+  height : 170px;
 }

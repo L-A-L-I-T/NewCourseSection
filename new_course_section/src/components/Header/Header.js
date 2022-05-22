@@ -4,7 +4,7 @@ import BrandLogo from "../../assets/beyond-exams-logo.2c98e22c.svg";
 import { Link } from "react-router-dom";
 function header() {
 	return (
-		<div style={{ marginBottom: "100px" }}>
+		<div style={{ marginBottom: "89px" }}>
 			<AppBar
 				style={{
 					boxShadow: "0 0 10px 1px rgb(0 0 0 / 20%)",

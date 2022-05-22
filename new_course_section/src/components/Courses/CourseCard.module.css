@@ -1,6 +1,7 @@
 .rowCourse {
-  min-height: 290px;
-  min-width: 190px;
+  min-width : 210px;
+  max-width: 210px;
+  min-height : 220px;
   margin-right: 20px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -9,9 +10,8 @@
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
-  padding : 5px 1px;
   margin-bottom: 5px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rowCourse:hover{
   box-shadow: 0 0 15px rgba(33,33,33,.2);
@@ -19,9 +19,29 @@
 .poster {
   border-radius: 10px 10px 0px 0px;
   object-fit: contain;
-  height : 100px;
+  height : 120px;
 }
 .videoCount {
   font-size: 12px;
   color: #696969;
+}
+.title{
+  font-size : 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .poster {
+    height : 85px;
+  }
+  .rowCourse {
+    width : 150px;
+    min-height : 170px;
+    min-width : 110px;
+  }
+  .videoCount {
+    font-size : 10px;
+  }
+  .title {
+    font-size : 13px;
+  }
 }

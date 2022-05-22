@@ -15,12 +15,16 @@ function CourseCard({ data }) {
 					<img src={data.image_url} className={styles.poster} alt="poster" />
 				</div>
 				<div style={{ width: "100%", marginLeft: "10px" }}>
-					<p style={{ color: "black" }}>{data.title}</p>
-					{data.video_count && (
-						<p className={styles.videoCount}>{data.video_count} Videos</p>
-					)}
-					{data.num_topics && (
+					<p style={{ color: "black" }} className={styles.title}>
+						{data.title}
+					</p>
+
+					{data.num_topics ? (
 						<p className={styles.videoCount}>{data.num_topics} courses</p>
+					) : (
+						data.video_count && (
+							<p className={styles.videoCount}>{data.video_count} Videos</p>
+						)
 					)}
 				</div>
 			</div>

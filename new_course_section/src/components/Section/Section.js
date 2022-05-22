@@ -4,6 +4,7 @@ import Tab from "@material-ui/core/Tab";
 import Header from "../Header/Header";
 import Courses from "../Courses/Courses";
 import styles from "./section.module.css";
+import Banner from "../../assets/banner_underwater.png";
 function Section({ courseName }) {
 	const [tabValue, setTabValue] = useState(0);
 	console.log(courseName);
@@ -14,7 +15,8 @@ function Section({ courseName }) {
 		<div>
 			<Header />
 			<div className={styles.header}>
-				<h2>Learn Anything you want!</h2>
+				<img src={Banner} alt="banner" className={styles.banner} />
+				<h2 className={styles.title}>Learn Anything you want!</h2>
 			</div>
 			<Tabs
 				value={tabValue}

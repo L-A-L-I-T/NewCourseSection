@@ -9,10 +9,6 @@ import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 function Courses() {
 	return (
 		<div className={styles.container}>
-			<div className={styles.title}>
-				<h3 style={{ marginRight: "10px" }}>Courses by Topics</h3>
-				<ArrowRightAltIcon />
-			</div>
 			{CoursesData.map((course, index) => {
 				return <CourseSection data={course} key={index} />;
 			})}
