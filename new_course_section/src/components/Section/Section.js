@@ -3,7 +3,7 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Header from "../Header/Header";
 import Courses from "../Courses/Courses";
-
+import styles from "./section.module.css";
 function Section({ courseName }) {
 	const [tabValue, setTabValue] = useState(0);
 	console.log(courseName);
@@ -13,6 +13,9 @@ function Section({ courseName }) {
 	return (
 		<div>
 			<Header />
+			<div className={styles.header}>
+				<h2>Learn Anything you want!</h2>
+			</div>
 			<Tabs
 				value={tabValue}
 				onChange={handleChange}

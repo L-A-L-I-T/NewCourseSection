@@ -1,9 +1,10 @@
-.courseName {
+.header {
   display : flex;
   justify-content: center;
-}
-
-.courseTitle {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  align-items: center;
+  
+  font-family: 'Caveat', cursive;
+  min-height : 200px;
+  font-size : 2.2rem;
+  margin-bottom : 20px;
 }
